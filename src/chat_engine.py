@@ -37,10 +37,31 @@ db = FAISS.load_local(
 # -----------------------------------
 def retrieve_context(question):
 
-    docs = db.similarity_search(
-        question,
-        k=4
-    )
+    project_keywords = [
+        "project",
+        "projects",
+        "portfolio",
+        "work you have built",
+        "tell me about your projects",
+        "what projects have you built"
+    ]
+
+    if any(
+        word in question.lower()
+        for word in project_keywords
+    ):
+
+        docs = db.similarity_search(
+            "projects",
+            k=20
+        )
+
+    else:
+
+        docs = db.similarity_search(
+            question,
+            k=8
+        )
 
     context = "\n\n".join(
         [doc.page_content for doc in docs]
@@ -122,6 +143,14 @@ You can connect with me directly:
 - Recruiter summary
 
 Then provide a polished professional introduction.
+
+11. When discussing projects:
+
+- List ALL projects found in the context.
+- Keep each project separate.
+- Never mix technologies from different projects.
+- Never mix outcomes from different projects.
+- If multiple projects exist, mention all of them before giving details.
 
 CONTEXT:
 {context}

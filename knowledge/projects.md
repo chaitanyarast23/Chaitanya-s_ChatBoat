@@ -1,5 +1,7 @@
 # Projects
 
+====================================================
+
 ## AI Career Assistant
 
 ### Overview
@@ -30,6 +32,9 @@ I built an AI-powered Career Assistant that acts as an interactive version of my
 This project demonstrates my skills in Generative AI, prompt engineering, vector databases, LangChain, RAG pipelines, and LLM application development.
 
 ---
+
+====================================================
+
 
 ## End-to-End Machine Learning Pipeline for Scholarship Eligibility Prediction
 
@@ -91,6 +96,9 @@ This project automates the eligibility prediction process using machine learning
 This project strengthened my understanding of production-grade machine learning systems, data preprocessing, feature engineering, and model deployment workflows.
 
 ---
+
+====================================================
+
 
 ## Uyghur Automatic Speech Recognition (ASR) System
 
