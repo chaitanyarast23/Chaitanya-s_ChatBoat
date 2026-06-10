@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 
 vectorstore/
+
 src/__pycache__/
 
 

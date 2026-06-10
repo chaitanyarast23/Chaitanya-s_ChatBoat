@@ -26,6 +26,9 @@ embedding_model = HuggingFaceEmbeddings(
 # -----------------------------------
 # LOAD VECTOR DATABASE
 # -----------------------------------
+if not os.path.exists("vectorstore"):
+    from ingest import *
+
 db = FAISS.load_local(
     "vectorstore",
     embedding_model,
