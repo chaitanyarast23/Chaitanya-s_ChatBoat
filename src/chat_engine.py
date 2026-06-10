@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 from langchain_community.vectorstores import FAISS
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
 
 load_dotenv()
 
@@ -26,8 +26,6 @@ embedding_model = HuggingFaceEmbeddings(
 # -----------------------------------
 # LOAD VECTOR DATABASE
 # -----------------------------------
-if not os.path.exists("vectorstore"):
-    from ingest import *
 
 db = FAISS.load_local(
     "vectorstore",
