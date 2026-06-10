@@ -162,12 +162,9 @@ Google Gemini generates responses using the retrieved context.
 ### Clone Repository
 
 ```bash
-git clone https://github.com/chaitanyarast23/your-repository-name.git
+git clone https://github.com/chaitanyarast23/Chaitanya-s_ChatBoat.git
 ```
 
-```bash
-cd your-repository-name
-```
 
 ### Create Virtual Environment
 
