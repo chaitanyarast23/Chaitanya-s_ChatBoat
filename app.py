@@ -151,6 +151,8 @@ with header_col2:
 
 st.markdown("---")
 
+
+
 # -----------------------------------
 # INITIAL WELCOME MESSAGE
 # -----------------------------------
@@ -169,16 +171,9 @@ if (
 
 I'm **Chaitanya AI Career Assistant**.
 
-You can ask me about:
-
-- Skills
-- Projects
-- Experience
-- Education
-- Certifications
-- Technologies
-
 How can I help you today?
+
+
 """
             }
         ]
@@ -209,6 +204,7 @@ to begin your interview.
 """
             }
         ]
+
 
 # -----------------------------------
 # DISPLAY CHAT HISTORY

@@ -1,7 +1,9 @@
-My name is Chaitanya Rastogi.
+# About Chaitanya Rastogi
 
-I am a Data Analyst and Python Developer with experience in Python, SQL, Machine Learning, Power BI, Generative AI, LangChain, and Streamlit.
+Chaitanya Rastogi is a Data Science and AI enthusiast with experience in Python, SQL, Machine Learning, Deep Learning, Generative AI, and Retrieval-Augmented Generation (RAG).
 
-I enjoy building end-to-end AI applications, data science solutions, and interactive tools that solve real-world business problems.
+He has developed end-to-end machine learning pipelines, speech recognition systems, and AI-powered applications using LangChain, FAISS, Google Gemini, PyTorch, and Whisper.
 
-I am passionate about learning modern AI technologies and applying them to practical use cases.
+His interests include Generative AI, LLM applications, MLOps, NLP, and building real-world AI solutions that solve practical business problems.
+
+He is actively seeking opportunities in Data Science, Machine Learning, AI Engineering, and Generative AI.
