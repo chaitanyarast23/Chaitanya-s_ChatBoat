@@ -18,7 +18,7 @@ with st.sidebar:
     st.title("👨‍💻 Chaitanya Rastogi")
 
     try:
-        st.image("assets/profile.jpg", width=220)
+        st.image("assets/profile.jpeg", width=220)
     except:
         pass
 
